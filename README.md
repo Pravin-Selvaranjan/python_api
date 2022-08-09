@@ -4,8 +4,6 @@
 ### Benefits of API
 #### Install requests
 
-![image](C:/Users/pvs15/Pictures/Blankdiagram.jpeg)
-
 
 - Pip install package_name "pip install requests"
 pip install requests
