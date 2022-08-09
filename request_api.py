@@ -24,12 +24,12 @@ r = requests.get("https://www.bbc.co.uk/")
 #
 # # should give us the status code only - numbers 200 -404 - 501 etc
 
-if r:
-     print("success")  # what is it checking
-elif r.status_code == 404:         # what is it checking
-     print("unsuccessful")
-else:                             # what is it checking
-     print (f"OOPS something went wrong please try later the status code is {r.status_code}")
+# if r:
+#      print("success")  # what is it checking
+# elif r.status_code == 404:         # what is it checking
+#      print("unsuccessful")
+# else:                             # what is it checking
+#      print (f"OOPS something went wrong please try later the status code is {r.status_code}")
 
 # Third iteration
 # Create a function that returns the status code with appropriate message
@@ -46,10 +46,10 @@ def api_function():
 
 
 
-bbc_test = api_function()
+
+print (api_function())
 
 
-print (bbc_test)
 
 
 
