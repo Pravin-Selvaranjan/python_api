@@ -4,7 +4,6 @@
 ### Benefits of API
 #### Install requests
 
-
 - Pip install package_name "pip install requests"
 pip install requests
 ```
